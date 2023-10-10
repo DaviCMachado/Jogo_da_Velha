@@ -1,0 +1,94 @@
+.container 
+{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.board 
+{
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    gap: 10px;
+    margin-left: 38%;
+}
+
+.space 
+{
+    width: 100px;
+    height: 100px;
+    font-size: 36px;
+    text-align: center;
+    line-height: 100px;
+    border: 2px solid #333;
+    cursor: pointer;
+}
+
+.space:hover 
+{
+    background-color: #eee;
+}
+
+#status 
+{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+#reset 
+{
+    font-size: 18px;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.barras #right
+{
+    position: fixed; 
+    top: 0; 
+    right: 0; 
+    width: 200px; 
+    height: 100%; 
+    background-color: #2e5b74;
+    padding: 20px;
+    text-align: center;
+
+    font-size: 14px;
+    line-height: 1.2;
+
+    text-shadow: 1px 1px 1px rgb(82, 22, 134);
+    letter-spacing: 2px;
+    font-family: sans-serif;
+}
+
+li 
+{
+    margin-bottom: 10px; 
+    color: black;
+}
+
+.barras #left ul li a {
+    color: black; /* Define a cor do texto dos links para preto */
+}
+
+
+.barras #left
+{
+    position: fixed; 
+    top: 0; 
+    left: 0; 
+    width: 200px; 
+    height: 100%; 
+    background-color: #2e5b74;
+    padding: 20px;
+    text-align: center;
+
+    font-size: 18px;
+    line-height: 1.2;
+
+    text-shadow: 0px 0px 1px rgb(207, 62, 207);
+    letter-spacing: 2px;
+    font-family: sans-serif;
+}
